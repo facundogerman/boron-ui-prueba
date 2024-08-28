@@ -89,7 +89,7 @@ div.social-webs {
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      border-color: white;
+      border: none;
     }
     .close-menu p {
       color: white;
