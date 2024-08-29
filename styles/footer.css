@@ -7,8 +7,14 @@ footer {
   flex-wrap: wrap;
 }
 
+footer svg {
+  cursor: pointer;
+}
+
 footer a {
   color: white;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .social-webs-footer {
@@ -49,8 +55,6 @@ footer a {
 .ul-footer-big {
   width: 25%;
   font-size: 16px;
-  list-style-type: none;
-  text-decoration: none;
   padding-left: 2rem;
 }
 .ul-footer-big li {
@@ -107,6 +111,8 @@ footer a {
   }
   .social-webs-footer-button button {
     width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
   .social-webs-footer-mail {
     color: white;
@@ -126,15 +132,19 @@ footer a {
     height: 170px;
     flex-wrap: wrap;
     gap: 1rem;
-    padding-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
   }
 
   .rights {
     display: flex;
     flex-wrap: wrap-reverse;
     padding-bottom: 0rem;
+    margin-top: 1rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    height: 80px;
   }
   .rights p {
     color: #666666;
