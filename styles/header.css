@@ -19,7 +19,6 @@ header {
 
 .nav-list li {
   display: flex;
-  align-items: center;
 }
 
 .nav-list li a {
@@ -44,12 +43,17 @@ header {
 li.search-big {
   display: block;
 }
+.search-small {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 
 .menu,
 .close-menu,
 .logo-b,
 li.logo-boron-sidemenu,
-li.search-small,
+.search-small,
 button.suscribe-button,
 div.social-webs {
   display: none;
@@ -64,7 +68,7 @@ div.social-webs {
     li.search-big {
       display: none;
     }
-    li.search-small {
+    .search-small {
       display: block;
     }
     .logo-b {
@@ -86,6 +90,7 @@ div.social-webs {
       align-items: center;
       justify-content: space-evenly;
       border: none;
+      transition: background-color 0.3s;
     }
     .menu p {
       color: white;
@@ -102,10 +107,15 @@ div.social-webs {
       align-items: center;
       justify-content: space-evenly;
       border: none;
+      transition: background-color 0.3s;
     }
     .close-menu p {
       color: white;
       font-size: 18px;
+    }
+    .menu:hover,
+    .close-menu:hover {
+      background-color: rgb(30, 30, 30);
     }
 
     button.suscribe-button {
@@ -167,6 +177,10 @@ div.social-webs {
       color: white;
       font-size: 40px;
     }
+    .nav-language {
+      display: flex;
+      justify-content: space-between;
+    }
     .nav-p-language {
       color: white;
       font-size: 40px;
@@ -185,7 +199,7 @@ div.social-webs {
   li.search-big {
     display: none;
   }
-  li.search-small {
+  .search-small {
     display: block;
   }
   .logo-b {
@@ -290,8 +304,14 @@ div.social-webs {
     color: white;
     font-size: 24px;
   }
+  .nav-language {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
   .nav-p-language {
     color: white;
     font-size: 24px;
+    padding-top: 1rem;
   }
 }
