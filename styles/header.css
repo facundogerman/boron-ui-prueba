@@ -15,6 +15,7 @@ header {
   list-style-type: none;
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .nav-list li {
@@ -172,12 +173,14 @@ div.social-webs {
       padding-top: 5rem;
       flex-direction: column;
       gap: 2rem;
+      align-items: start;
     }
     .nav-list li a {
       color: white;
       font-size: 40px;
     }
     .nav-language {
+      width: 100%;
       display: flex;
       justify-content: space-between;
     }
@@ -299,6 +302,7 @@ div.social-webs {
     padding-top: 1rem;
     flex-direction: column;
     gap: 1rem;
+    align-items: start;
   }
   .nav-list li a {
     color: white;
