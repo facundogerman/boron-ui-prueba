@@ -84,7 +84,7 @@ footer a {
 @media screen and (max-width: 768px) {
   footer {
     height: 690px;
-    padding: 2rem 2rem 0 2rem;
+    padding: 3rem 2rem 0 2rem;
     display: flex;
     flex-wrap: wrap;
   }
@@ -132,7 +132,7 @@ footer a {
     height: 170px;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 
