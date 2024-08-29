@@ -45,7 +45,12 @@ footer a {
   width: 400px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
+.social-webs-footer-button button:hover {
+  background-color: #95d3d5;
+}
+
 .social-webs-footer-mail {
   color: white;
   font-size: 14px;

@@ -44,18 +44,18 @@
   display: flex;
   justify-content: space-between;
   padding-top: 7rem;
-  transform: translateY(-50%);
 }
 .tweets-arrows button {
   border: none;
   cursor: pointer;
-  height: 39px;
-  width: 39px;
+  height: 50px;
+  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: #1da1f2;
+  transition: background-color 0.5s;
 }
 .tweets-arrows-prev:hover,
 .tweets-arrows-next:hover {
@@ -128,7 +128,6 @@
     display: flex;
     justify-content: center;
     padding-top: 2rem;
-    transform: translateY(-50%);
     gap: 1rem;
   }
   .tweets-dot {
@@ -138,7 +137,7 @@
     border-radius: 50%;
     cursor: pointer;
     background-color: black;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
   }
   .tweets-dot.active {
     background-color: white;

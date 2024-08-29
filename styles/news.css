@@ -23,7 +23,7 @@
   height: 25%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
 .news-div-1:hover img,
