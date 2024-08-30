@@ -1,4 +1,4 @@
-﻿# Prueba UI Developer para BORON Studios.
+﻿# Prueba UI Developer para BORON Digital Studio.
 
 ## Deploy de la aplicación en Vercel
 
